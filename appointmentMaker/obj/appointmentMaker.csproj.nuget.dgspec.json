@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ASP\\projects\\appointmentMaker\\appointmentMaker\\appointmentMaker.csproj": {}
+    "C:\\Users\\Lenovo\\Desktop\\asp\\dark\\AppointmentMaker\\AppointmentMaker\\appointmentMaker\\appointmentMaker.csproj": {}
   },
   "projects": {
-    "F:\\ASP\\projects\\appointmentMaker\\appointmentMaker\\appointmentMaker.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\asp\\dark\\AppointmentMaker\\AppointmentMaker\\appointmentMaker\\appointmentMaker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP\\projects\\appointmentMaker\\appointmentMaker\\appointmentMaker.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\asp\\dark\\AppointmentMaker\\AppointmentMaker\\appointmentMaker\\appointmentMaker.csproj",
         "projectName": "appointmentMaker",
-        "projectPath": "F:\\ASP\\projects\\appointmentMaker\\appointmentMaker\\appointmentMaker.csproj",
-        "packagesPath": "C:\\Users\\HRKco\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP\\projects\\appointmentMaker\\appointmentMaker\\obj\\",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\asp\\dark\\AppointmentMaker\\AppointmentMaker\\appointmentMaker\\appointmentMaker.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\asp\\dark\\AppointmentMaker\\AppointmentMaker\\appointmentMaker\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\HRKco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -51,7 +54,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -63,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
