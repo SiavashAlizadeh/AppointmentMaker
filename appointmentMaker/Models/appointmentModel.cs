@@ -11,6 +11,20 @@ namespace appointmentMaker.Models
         [DisplayName("patient's full name")]
         public String patientName { get; set; }
 
+        [DisplayName("patient's email address")]
+        [DataType(DataType.EmailAddress)]
+        
+        public String emailAddress { get; set; }
+
+
+        [DisplayName("patient's phone number")]
+        [DataType(DataType.PhoneNumber)]
+        public int patientNumber { get; set; }
+
+        [DisplayName("patient's zip code")]
+        [StringLength(5,MinimumLength =5)]
+        public String zipCode { get; set; }
+
         [DisplayName("appointment request Data")]
 
         [DataType(DataType.Date)]
