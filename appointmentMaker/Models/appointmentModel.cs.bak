@@ -11,7 +11,7 @@ namespace appointmentMaker.Models
         [DisplayName("patient's full name")]
         public String patientName { get; set; }
 
-
+<<<<<<< HEAD
         [DisplayName("patient's email address")]
         [DataType(DataType.EmailAddress)]
         
@@ -22,16 +22,17 @@ namespace appointmentMaker.Models
         [DataType(DataType.PhoneNumber)]
         public int patientNumber { get; set; }
 
-        [Display(Name = "Zip Code")]
-        [StringLength(10, MinimumLength = 5)]
-        [RegularExpression("(^\\d{5}(-\\d{4})?$)|(^[ABCEGHJKLMNPRSTVXY]{1}\\d{1}[A-Z]{1} *\\d{1}[A-Z]{1}\\d{1}$)", ErrorMessage = "Zip code is invalid.")] // US or Canada
-        [Required(ErrorMessage = "Zip Code is Required.")]
+        [DisplayName("patient's zip code")]
+        [StringLength(5,MinimumLength =5)]
         public String zipCode { get; set; }
 
+        [DisplayName("appointment request Data")]
+=======
         [DisplayName("City")]
         [Required]
         [StringLength(20, MinimumLength = 4)]
         public string City { get; set; }
+>>>>>>> 922a6e2bceab9a3df8b51b6740216c0152be55da
 
         [DisplayName("Street")]
         [Required]
