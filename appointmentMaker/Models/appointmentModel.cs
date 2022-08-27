@@ -51,7 +51,7 @@ namespace appointmentMaker.Models
         public String doctorsName { get; set; }
 
         [DisplayName("pain level is (1-10)")]
-        [Range(1,10)]
+        [Range(5,10 , ErrorMessage ="unfortunatly your pain level is not high enough")]
         public int painLevel { get; set; }
 
         

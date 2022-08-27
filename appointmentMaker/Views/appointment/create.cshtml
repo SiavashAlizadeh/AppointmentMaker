@@ -11,8 +11,6 @@
                 <input asp-for="patientName" class="form-control" />
                 <span asp-validation-for="patientName" class="text-danger"></span>
             </div>
-            <!-- adding a new labels-->
-
              <div class="form-group">
                 <label asp-for="emailAddress" class="control-label"></label>
                 <input asp-for="emailAddress" class="form-control" />
@@ -23,13 +21,6 @@
                 <input asp-for="patientNumber" class="form-control" />
                 <span asp-validation-for="patientNumber" class="text-danger"></span>
             </div>
-             <div class="form-group">
-                <label asp-for="zipCode" class="control-label"></label>
-                <input asp-for="zipCode" class="form-control" />
-                <span asp-validation-for="zipCode" class="text-danger"></span>
-            </div>
-
-
             <div class="form-group">
                 <label asp-for="City" class="control-label"></label>
                 <input asp-for="City" class="form-control" />
@@ -39,6 +30,11 @@
                 <label asp-for="Street" class="control-label"></label>
                 <input asp-for="Street" class="form-control" />
                 <span asp-validation-for="Street" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+                <label asp-for="zipCode" class="control-label"></label>
+                <input asp-for="zipCode" class="form-control" />
+                <span asp-validation-for="zipCode" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="appointmentDate" class="control-label"></label>
